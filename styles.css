@@ -1,16 +1,20 @@
-body {
+
+#wrapper {
     max-width: 1200px;
+    margin: 0 auto;
+    
+}
+p {
+    margin: 0;
     display: flex;
-    flex-direction: column;
 }
 
 .header {
     outline: 1px solid black;
-}
-
-.header {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
 }
 
 .links-header {
@@ -21,6 +25,18 @@ body {
 
 .first-container {
     outline: 1px solid red;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    align-self: flex-start; /*---- chuuuuj ----->*/
 }
 
 .second-container {
@@ -37,4 +53,5 @@ body {
 
 footer {
     outline: 1px solid brown;
+    background-color: #1f2937;
 }
