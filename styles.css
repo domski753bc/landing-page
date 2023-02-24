@@ -1,9 +1,13 @@
 
 #wrapper {
-  /*  max-width: 1920px;  add? */
     margin: 0 auto;
-    font-family: 'Roboto';
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(http://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+}
+
 p {
     margin: 0;
     display: flex;
@@ -29,7 +33,7 @@ p {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: 800;
+    font-weight: extra-bold;
 }
 
 .links-header {
